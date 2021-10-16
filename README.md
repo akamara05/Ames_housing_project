@@ -3,28 +3,29 @@
 
 ## Problem Statement
 
-Selling and or buying a home is a risky investment for all parties involved, as with any investment one wants to reap a large enough return. But with so many features of any home to be factored in, ranging from the roof type to the location, it can be difficult to decide what features of the home should be heavily invested in, in order to see these high returns. We've been hired by XYZ Developers who are located in Iowa and aim to build over 100 homes in the next 2 years. They've requested that we assess whether or not they should invest a substantial amount of their budget to hire, 'Bed, Bath, Basements and Sons' contractors who specialize in building and remodeling beds, baths, and basements for residential homes. XYZ Developers would like to know if a substantial focus on these features of a home will result in high selling prices and better returns. We aim to use our data science modeling skills to provide them with our findings and ultimate recommendations.  
+Selling and or buying a home is a risky investment for all parties involved, as with any investment one wants to reap a large return. But with so many features of a home to be factored in, ranging from the roof type to the location, it can be difficult to decide what features of the home should be heavily invested in order to obtain these high returns. We've been hired by XYZ Developers who are located in Iowa and aim to build over 100 homes in the next 2 years. They've requested that we assess what parts of homes they should primarily invest their building efforts into.  XYZ Developers would like to know if a focus on just these high value features of a home will result in higher selling prices and better returns. We aim to use our data science modeling skills to provide them with our findings and final recommendations.  
 
 ## Brief Background
 
-In order to conduct our analysis and provide our clients with the needed findings and recommendations, we've obtained a public dataset of the housing data in Ames Iowa a town less than 20 miles from the area XYZ Developers plan to build. Ames Iowa is a city in Story County, Iowa and is best known as the home of Iowa State University. This dataset is essentially a large repository of all possible features (over 75) of a house that may affect the selling price. Linked here is a data dictionary to said dataset, detailing each of the features and their accompanying values. For more information on the dataset itself we did some outside research to gain better knowledge of the city as well as the data set:
+In order to conduct our analysis and provide our clients with the needed findings and recommendations, we've obtained a public dataset of the housing data in Ames Iowa a town less than 20 miles from the area XYZ Developers plan to build. Ames Iowa is a city in Story County, Iowa and is best known as the home of Iowa State University. This dataset is essentially a large repository of all possible features (over 75) of a house that may effect the selling price. Linked here is a [data dictionary](https://www.kaggle.com/c/dsir-712-project-2-regression-challenge/data) to said dataset, detailing each of the features and their accompanying values. For more information on the dataset itself we did some outside research to gain better knowledge of the city as well as the data set:
 
 * [Ames,Iowa (wikipedia)](https://en.wikipedia.org/wiki/Ames,_Iowa)
 * [Ames Iowa: Alternative to the Boston Housing Data Set](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 
 
-
 ## Scope & Methodology
-1
-As mentioned there are over 75 features in this dataset so we could delve into assessing a number of outcomes, but as XYZ Developers has requested we focus our efforts on the services that 'Bed, Bath, Basements and Sons' provides, these are the features we will assess. Our analysis will be performed in four different parts:
 
-__1.__ Data Cleaning: We will clean the initial dataset being cognizant of missing data or features that may not be necessary to our analysis.  
+As mentioned there are over 75 features in this dataset so we could delve into assessing a number of outcomes. Our analysis will be performed in four different parts:
 
-__2.__ EDA: Here we begin to explore the clean data and get an idea of how these features alone and in combination with other complimentary features may affect our ultimate goal of predicting high sales prices. 
+1. Data Cleaning: We will clean the initial dataset being cognizant of missing data or features that may not be necessary to our analysis.
 
-__3.__ Modeling Part I: We will utilize linear regression incorporating different sets of features to see what best achieves our objective. 
+2. EDA: Here we begin to explore the clean data and get an idea of how these features alone and in combination with other complimentary features may affect our ultimate goal of predicting high sales prices.
 
-__4.__ Modeling Part II: An introduction of Lasso and Ridge regularization to our previous models with the aim of improving our model and avoiding as much bias as we possibly can. 
+3. Modeling Part I: we will utilize linear regression incorporating different sets of features to see what best achieves our objective.
+
+4. Modeling Part II: An introduction of Lasso and Ridge regularization to our previous models with the aim of improving our model and avoiding as much bias as we possibly can.
+
+
 ## Exploratory Data Analysis
 
 ### Findings 
